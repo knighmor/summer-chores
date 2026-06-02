@@ -34,58 +34,58 @@ function finishedSummerChores (name) {
 
     // using the weed eater
     function weedEat (callback, name) {
-        let sleepChance = sleepRisk(0, 100);
-        if (sleepChance > 5 ) {
-            setTimeout(() => {
-            console.log(`${name} finished using the weed eater.`);
-            callback();
-            }, 1500);
-        }
-        else {
-            console.log(`${name} fell asleep after mowing the lawn.`)
-        }
+        setTimeout(() => {
+            let sleepChance = sleepRisk(0, 100);
+            if (sleepChance > 5 ) {
+                console.log(`${name} finished using the weed eater.`);
+                callback();
+                }
+            else {
+                console.log(`${name} fell asleep after mowing the lawn.`)
+                }
+        }, 1500)
     }
 
     // trimming the hedges
     function trimHedges (callback, name) {
-        let sleepChance = sleepRisk(0, 80);
-        if (sleepChance > 10 ) {
-            setTimeout(() => {
-            console.log(`${name} finished trimming the hedges.`);
-            callback();
-            }, 1000);
-        }
-        else {
-            console.log(`${name} fell asleep after weed eating the yard.`)
-        }
-    }
+        setTimeout(() => {
+            let sleepChance = sleepRisk(0, 80);
+            if (sleepChance > 10 ) {
+                console.log(`${name} finished trimming the hedges.`);
+                callback();
+                }
+            else {
+                console.log(`${name} fell asleep after weed eating the yard.`)
+                } 
+        }, 1000)
+    } 
 
     // collecting wood
     function collectWood (callback, name) {
-        let sleepChance = sleepRisk(0, 60);
-        if (sleepChance > 20 ) {
-            setTimeout(() => {
-            console.log(`${name} finished collecting wood.`);
-            callback();
-            }, 2500);
-        }
-        else {
-            console.log(`${name} fell asleep after trimming the hedges.`)
-        }
+        setTimeout(() => {
+            let sleepChance = sleepRisk(0, 60);
+            if (sleepChance > 20 ) {
+                console.log(`${name} finished collecting wood.`);
+                callback();
+                }
+            else {
+                console.log(`${name} fell asleep after trimming the hedges.`)
+                }
+        }, 2500);
     }
 
     // watering the garden
     function waterGarden (callback, name) {
-        let sleepChance = sleepRisk(0, 50);
-        if (sleepChance > 30 ) {
-            setTimeout(() => {
-            console.log(`${name} finished watering the garden.`);
-            callback();
-            }, 500);
-        }
-        else {
-            console.log(`${name} fell asleep after collecting wood.`)
-        }
+        setTimeout(() => {
+            let sleepChance = sleepRisk(0, 50);
+            if (sleepChance > 30 ) {
+                console.log(`${name} finished watering the garden.`);
+                callback();
+                }
+            else {
+                console.log(`${name} fell asleep after collecting wood.`)
+                }
+        }, 500);
     }
 // #endregion
 
