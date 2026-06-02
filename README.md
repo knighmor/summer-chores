@@ -24,27 +24,29 @@ If they manage not to get tired and fall asleep while doing their chores, they h
 | promiseVersion.js | This file plays out the scenario using the Callback Function method for asynchronous JavaScript. |
 
 ## How to Download/Use
-1. Download Git and Node.js
+1. **Download Git and Node.js**
+
     A. Git Download
         1. Go to the official Git website for downloads: https://git-scm.com/install/.
         2. Click the version applicable to your Operating System. From there, you can click the link provided upmost for downloading.
         3. Open the Git installer and run through the setup pop-ups.
-            Note: You can simply hit next through most of the process. It is recommended to select "Additional icons" when on the Select Components tab however, along with selecting "Override the default branch name for new repositores" on the name adjustments for repositories tab.
+            - *Note: You can simply hit next through most of the process. It is recommended to select "Additional icons" when on the Select Components tab however, along with selecting "Override the default branch name for new repositores" on the name adjustments for repositories tab.*
         4. You can test if your download is successful by either opening up the Command Prompt for your OS. From there, you can type in ``git``. If it returns the list of commands and usage details for it, your download was successful!
+
     B. Node.js Download
         1. Go to the official Node.js website for downloads: https://nodejs.org/en.
         2. Open the Node.js installer and run through the setup pop-ups.
-            Note: You can simply hit next through most of the process. Do not mess with any of the options unless you know what you are doing.
+            - *Note: You can simply hit next through most of the process. Do not mess with any of the options unless you know what you are doing.*
         3. You can test if your download is successful by either opening up the Command Prompt for your OS, or any other Command Consoles you might have (i.e. Git). From there, you can type in ``node --version``. If it returns the current version, your download was successful!
 
-2. Open up Git and clone the repository.
+2. **Open up Git and clone the repository.**
     Note: It is recommended to set up a 'Projects' folder beforehand, using the "mkdir" command on your root directory.
     ``git clone https://github.com/knighmor/summer-chores.git``
 
-3. Navigate to the project directory.
+3. **Navigate to the project directory.**
     ``cd summer-chores``
 
-4. Use the following commands in Git depending on the file you wish to run.
+4. **Use the following commands in Git depending on the file you wish to run.**
     A. To run the *asyncAwaitVersion.js* file, use:
         ``node asyncAwaitVersion.js``
     B. To run the *callbackVersion.js* file, use:
@@ -52,5 +54,5 @@ If they manage not to get tired and fall asleep while doing their chores, they h
     C. To run the *promiseVersion.js* file, use:
         ``node promiseVersion.js``
 
-5. At that point, the files should execute-- and you'll have an output that looks something like this! Congrats!
+5. **At that point, the files should execute-- and you'll have an output that looks something like this! Congrats!**
 ![alt text](./output-snippet-for-readme/output-snippet.png "Output Snippet")
