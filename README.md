@@ -52,10 +52,13 @@ If they manage not to get tired and fall asleep while doing their chores, they h
     ``cd summer-chores``
 
 4. **Use the following commands in Git depending on the file you wish to run.**
+
     A. To run the *asyncAwaitVersion.js* file, use:
         ``node asyncAwaitVersion.js``
+
     B. To run the *callbackVersion.js* file, use:
         ``node callbackVersion.js``
+        
     C. To run the *promiseVersion.js* file, use:
         ``node promiseVersion.js``
 
