@@ -102,4 +102,3 @@ function sleepRisk(min, max) {
 
 
 doSummerChores("Morg");
-doSummerChores("Joe");

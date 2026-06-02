@@ -91,4 +91,3 @@ function finishedSummerChores (name) {
 
 
 doSummerChores("Morg");
-doSummerChores("Joe");
