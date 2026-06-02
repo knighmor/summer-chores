@@ -18,6 +18,7 @@ If they manage not to get tired and fall asleep while doing their chores, they h
 
 ## Table of Contents
 | **File** | **Description** |
+| -------- | ----------------|
 | asyncAwaitVersion.js | This file plays out the scenario using the Async/Await functions method for asynchronous JavaScript. |
 | callbackVersion.js | This file plays out the scenario using the Callback Function method for asynchronous JavaScript. |
 | promiseVersion.js | This file plays out the scenario using the Callback Function method for asynchronous JavaScript. |
