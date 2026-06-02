@@ -37,11 +37,11 @@ If they manage not to get tired and fall asleep while doing their chores, they h
         4. You can test if your download is successful by either opening up the Command Prompt for your OS. From there, you can type in ``git``. If it returns the list of commands and usage details for it, your download was successful!
 
     B. Node.js Download
-        1. Go to the official Node.js website for downloads: https://nodejs.org/en.
+         1. Go to the official Node.js website for downloads: https://nodejs.org/en.
 
         2. Open the Node.js installer and run through the setup pop-ups.
             - *Note: You can simply hit next through most of the process. Do not mess with any of the options unless you know what you are doing.*
-            
+
         3. You can test if your download is successful by either opening up the Command Prompt for your OS, or any other Command Consoles you might have (i.e. Git). From there, you can type in ``node --version``. If it returns the current version, your download was successful!
 
 2. **Open up Git and clone the repository.**
