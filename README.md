@@ -27,6 +27,7 @@ If they manage not to get tired and fall asleep while doing their chores, they h
 1. **Download Git and Node.js**
 
     A. Git Download
+    
         1. Go to the official Git website for downloads: https://git-scm.com/install/.
 
         2. Click the version applicable to your Operating System. From there, you can click the link provided upmost for downloading.
@@ -37,6 +38,7 @@ If they manage not to get tired and fall asleep while doing their chores, they h
         4. You can test if your download is successful by either opening up the Command Prompt for your OS. From there, you can type in ``git``. If it returns the list of commands and usage details for it, your download was successful!
 
     B. Node.js Download
+
          1. Go to the official Node.js website for downloads: https://nodejs.org/en.
 
         2. Open the Node.js installer and run through the setup pop-ups.
@@ -58,7 +60,7 @@ If they manage not to get tired and fall asleep while doing their chores, they h
 
     B. To run the *callbackVersion.js* file, use:
         ``node callbackVersion.js``
-        
+
     C. To run the *promiseVersion.js* file, use:
         ``node promiseVersion.js``
 
